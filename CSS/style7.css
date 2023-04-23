@@ -1,0 +1,15 @@
+a{
+    background-color: orange;
+}
+
+a[target]{
+    background-color: aqua;
+    color: azure;
+}
+a[target='_blank']{
+    background-color: black;
+    color: palegreen;
+}
+a[target = '_self']{
+    color: blue;
+}

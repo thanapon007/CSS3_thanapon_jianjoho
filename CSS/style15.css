@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(69, 70, 70);
+}
+.box{
+    background-color: aliceblue;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation-name: animate2;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animate2{
+    0%{
+        top:0;
+        left: 0;
+        transform: rotate(0deg);
+    }
+    25%{
+        top: 0;
+        left: 300px;
+        transform: rotate(45deg);
+    }
+    50%{
+        top: 300px;
+        left: 300px;
+        transform: rotate(55deg);
+    }
+    75%{
+        top: 300px;
+        left: 0px;
+        transform: rotate(90deg);
+
+    }
+    100%{
+        top: 0;
+        left: 0;
+        transform: rotate(360deg);
+    }
+
+
+}

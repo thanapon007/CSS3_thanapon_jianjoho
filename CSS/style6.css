@@ -1,0 +1,10 @@
+p{
+    background-color: orange;
+}
+div p{
+    background-color: aqua;
+}
+
+div>p{
+    background-color: yellow;
+}

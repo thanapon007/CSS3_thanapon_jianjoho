@@ -1,0 +1,9 @@
+input[type="email"] , input[type="text"]{
+    width: 80%;
+    margin: 10px;
+}
+input[type="submit"]{
+    color: blue;
+    background-color: azure;
+    border-radius: 10px;
+}

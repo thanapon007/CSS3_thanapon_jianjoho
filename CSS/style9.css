@@ -1,0 +1,10 @@
+li{
+    padding: 0.25rem;
+    margin: 0.25rem;
+    list-style: none;
+
+}
+
+li:nth-child(3n){
+    background-color: orange;
+}

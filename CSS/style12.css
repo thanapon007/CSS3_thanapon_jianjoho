@@ -1,0 +1,18 @@
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+    border: 2px solid black;
+
+    /* transform box */
+    transform: translate(200px ,100px);
+
+    /* transform: rotate(50deg); */
+
+    transform: skew(10deg);
+
+
+
+
+
+}

@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+}
+.flex-container{
+    display: flex;
+    background-color: aqua;
+    padding: 5px;
+    flex-direction: row;
+    height: 50vh;
+    align-items: center;
+    
+
+
+    
+}
+
+.item{
+    background: orange;
+    border: 1px solid black;
+    width: 200px;
+    
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    
+
+    
+}
